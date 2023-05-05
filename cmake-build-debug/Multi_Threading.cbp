@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Multi_Threading"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Work/Programming/C++/Multi-Threading/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Multi_Threading">
+				<Option output="E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Multi_Threading.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Work/Programming/C++/Multi-Threading/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Work/Programming/C++/Multi-Threading/Common"/>
+					<Add directory="E:/Work/Programming/C++/Multi-Threading/Examples/Simple/Large_Array_Summation"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Threading"/>
+					<CompileFile command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Multi_Threading/fast">
+				<Option output="E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Multi_Threading.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Work/Programming/C++/Multi-Threading/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Work/Programming/C++/Multi-Threading/Common"/>
+					<Add directory="E:/Work/Programming/C++/Multi-Threading/Examples/Simple/Large_Array_Summation"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 Multi_Threading/fast"/>
+					<CompileFile command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Work/Programming/C++/Multi-Threading/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Work/Programming/C++/Multi-Threading/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/Clion/CLion 2023.1.1/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Work/Programming/C++/Multi-Threading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Work/Programming/C++/Multi-Threading/Common/common.cpp">
+			<Option target="Multi_Threading"/>
+		</Unit>
+		<Unit filename="E:/Work/Programming/C++/Multi-Threading/Common/common.h">
+			<Option target="Multi_Threading"/>
+		</Unit>
+		<Unit filename="E:/Work/Programming/C++/Multi-Threading/Examples/Simple/Large_Array_Summation/large_array_summation.cpp">
+			<Option target="Multi_Threading"/>
+		</Unit>
+		<Unit filename="E:/Work/Programming/C++/Multi-Threading/Examples/Simple/Large_Array_Summation/large_array_summation.h">
+			<Option target="Multi_Threading"/>
+		</Unit>
+		<Unit filename="E:/Work/Programming/C++/Multi-Threading/main.cpp">
+			<Option target="Multi_Threading"/>
+		</Unit>
+		<Unit filename="E:/Work/Programming/C++/Multi-Threading/main.h">
+			<Option target="Multi_Threading"/>
+		</Unit>
+		<Unit filename="E:/Work/Programming/C++/Multi-Threading/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
