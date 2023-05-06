@@ -98,33 +98,33 @@ CMakeFiles/Multi_Threading.dir/Examples/Simple/Large_Array_Summation/large_array
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multi_Threading.dir/Examples/Simple/Large_Array_Summation/large_array_summation.cpp.s"
 	"G:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Work\Programming\C++\Multi-Threading\Examples\Simple\Large_Array_Summation\large_array_summation.cpp -o CMakeFiles\Multi_Threading.dir\Examples\Simple\Large_Array_Summation\large_array_summation.cpp.s
 
-CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj: CMakeFiles/Multi_Threading.dir/flags.make
-CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj: CMakeFiles/Multi_Threading.dir/includes_CXX.rsp
-CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj: E:/Work/Programming/C++/Multi-Threading/Common/common.cpp
-CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj: CMakeFiles/Multi_Threading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Work\Programming\C++\Multi-Threading\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj"
-	"G:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj -MF CMakeFiles\Multi_Threading.dir\Common\common.cpp.obj.d -o CMakeFiles\Multi_Threading.dir\Common\common.cpp.obj -c E:\Work\Programming\C++\Multi-Threading\Common\common.cpp
+CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj: CMakeFiles/Multi_Threading.dir/flags.make
+CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj: CMakeFiles/Multi_Threading.dir/includes_CXX.rsp
+CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj: E:/Work/Programming/C++/Multi-Threading/Examples/Common/common.cpp
+CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj: CMakeFiles/Multi_Threading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Work\Programming\C++\Multi-Threading\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj"
+	"G:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj -MF CMakeFiles\Multi_Threading.dir\Examples\Common\common.cpp.obj.d -o CMakeFiles\Multi_Threading.dir\Examples\Common\common.cpp.obj -c E:\Work\Programming\C++\Multi-Threading\Examples\Common\common.cpp
 
-CMakeFiles/Multi_Threading.dir/Common/common.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multi_Threading.dir/Common/common.cpp.i"
-	"G:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Work\Programming\C++\Multi-Threading\Common\common.cpp > CMakeFiles\Multi_Threading.dir\Common\common.cpp.i
+CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.i"
+	"G:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Work\Programming\C++\Multi-Threading\Examples\Common\common.cpp > CMakeFiles\Multi_Threading.dir\Examples\Common\common.cpp.i
 
-CMakeFiles/Multi_Threading.dir/Common/common.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multi_Threading.dir/Common/common.cpp.s"
-	"G:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Work\Programming\C++\Multi-Threading\Common\common.cpp -o CMakeFiles\Multi_Threading.dir\Common\common.cpp.s
+CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.s"
+	"G:\Clion\CLion 2023.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Work\Programming\C++\Multi-Threading\Examples\Common\common.cpp -o CMakeFiles\Multi_Threading.dir\Examples\Common\common.cpp.s
 
 # Object files for target Multi_Threading
 Multi_Threading_OBJECTS = \
 "CMakeFiles/Multi_Threading.dir/main.cpp.obj" \
 "CMakeFiles/Multi_Threading.dir/Examples/Simple/Large_Array_Summation/large_array_summation.cpp.obj" \
-"CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj"
+"CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj"
 
 # External object files for target Multi_Threading
 Multi_Threading_EXTERNAL_OBJECTS =
 
 Multi_Threading.exe: CMakeFiles/Multi_Threading.dir/main.cpp.obj
 Multi_Threading.exe: CMakeFiles/Multi_Threading.dir/Examples/Simple/Large_Array_Summation/large_array_summation.cpp.obj
-Multi_Threading.exe: CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj
+Multi_Threading.exe: CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj
 Multi_Threading.exe: CMakeFiles/Multi_Threading.dir/build.make
 Multi_Threading.exe: CMakeFiles/Multi_Threading.dir/linkLibs.rsp
 Multi_Threading.exe: CMakeFiles/Multi_Threading.dir/objects1

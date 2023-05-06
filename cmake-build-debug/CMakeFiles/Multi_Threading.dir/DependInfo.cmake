@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/Work/Programming/C++/Multi-Threading/Common/common.cpp" "CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj" "gcc" "CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj.d"
+  "E:/Work/Programming/C++/Multi-Threading/Examples/Common/common.cpp" "CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj" "gcc" "CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj.d"
   "E:/Work/Programming/C++/Multi-Threading/Examples/Simple/Large_Array_Summation/large_array_summation.cpp" "CMakeFiles/Multi_Threading.dir/Examples/Simple/Large_Array_Summation/large_array_summation.cpp.obj" "gcc" "CMakeFiles/Multi_Threading.dir/Examples/Simple/Large_Array_Summation/large_array_summation.cpp.obj.d"
   "E:/Work/Programming/C++/Multi-Threading/main.cpp" "CMakeFiles/Multi_Threading.dir/main.cpp.obj" "gcc" "CMakeFiles/Multi_Threading.dir/main.cpp.obj.d"
   )

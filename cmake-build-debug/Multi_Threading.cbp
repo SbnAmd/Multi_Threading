@@ -24,7 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Work/Programming/C++/Multi-Threading/Common"/>
+					<Add directory="E:/Work/Programming/C++/Multi-Threading/Examples/Common"/>
 					<Add directory="E:/Work/Programming/C++/Multi-Threading/Examples/Simple/Large_Array_Summation"/>
 					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
@@ -48,7 +48,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Work/Programming/C++/Multi-Threading/Common"/>
+					<Add directory="E:/Work/Programming/C++/Multi-Threading/Examples/Common"/>
 					<Add directory="E:/Work/Programming/C++/Multi-Threading/Examples/Simple/Large_Array_Summation"/>
 					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="G:/Clion/CLion 2023.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
@@ -86,10 +86,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Work/Programming/C++/Multi-Threading/Common/common.cpp">
+		<Unit filename="E:/Work/Programming/C++/Multi-Threading/Examples/Common/common.cpp">
 			<Option target="Multi_Threading"/>
 		</Unit>
-		<Unit filename="E:/Work/Programming/C++/Multi-Threading/Common/common.h">
+		<Unit filename="E:/Work/Programming/C++/Multi-Threading/Examples/Common/common.h">
 			<Option target="Multi_Threading"/>
 		</Unit>
 		<Unit filename="E:/Work/Programming/C++/Multi-Threading/Examples/Simple/Large_Array_Summation/large_array_summation.cpp">

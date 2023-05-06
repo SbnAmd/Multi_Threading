@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj"
-  "CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj.d"
+  "CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj"
+  "CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj.d"
   "CMakeFiles/Multi_Threading.dir/Examples/Simple/Large_Array_Summation/large_array_summation.cpp.obj"
   "CMakeFiles/Multi_Threading.dir/Examples/Simple/Large_Array_Summation/large_array_summation.cpp.obj.d"
   "CMakeFiles/Multi_Threading.dir/main.cpp.obj"

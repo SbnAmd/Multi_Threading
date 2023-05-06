@@ -128,29 +128,29 @@ Multi_Threading/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi_Threading.dir\build.make CMakeFiles/Multi_Threading.dir/build
 .PHONY : Multi_Threading/fast
 
-Common/common.obj: Common/common.cpp.obj
-.PHONY : Common/common.obj
+Examples/Common/common.obj: Examples/Common/common.cpp.obj
+.PHONY : Examples/Common/common.obj
 
 # target to build an object file
-Common/common.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi_Threading.dir\build.make CMakeFiles/Multi_Threading.dir/Common/common.cpp.obj
-.PHONY : Common/common.cpp.obj
+Examples/Common/common.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi_Threading.dir\build.make CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.obj
+.PHONY : Examples/Common/common.cpp.obj
 
-Common/common.i: Common/common.cpp.i
-.PHONY : Common/common.i
+Examples/Common/common.i: Examples/Common/common.cpp.i
+.PHONY : Examples/Common/common.i
 
 # target to preprocess a source file
-Common/common.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi_Threading.dir\build.make CMakeFiles/Multi_Threading.dir/Common/common.cpp.i
-.PHONY : Common/common.cpp.i
+Examples/Common/common.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi_Threading.dir\build.make CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.i
+.PHONY : Examples/Common/common.cpp.i
 
-Common/common.s: Common/common.cpp.s
-.PHONY : Common/common.s
+Examples/Common/common.s: Examples/Common/common.cpp.s
+.PHONY : Examples/Common/common.s
 
 # target to generate assembly for a file
-Common/common.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi_Threading.dir\build.make CMakeFiles/Multi_Threading.dir/Common/common.cpp.s
-.PHONY : Common/common.cpp.s
+Examples/Common/common.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Multi_Threading.dir\build.make CMakeFiles/Multi_Threading.dir/Examples/Common/common.cpp.s
+.PHONY : Examples/Common/common.cpp.s
 
 Examples/Simple/Large_Array_Summation/large_array_summation.obj: Examples/Simple/Large_Array_Summation/large_array_summation.cpp.obj
 .PHONY : Examples/Simple/Large_Array_Summation/large_array_summation.obj
@@ -209,9 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Multi_Threading
-	@echo ... Common/common.obj
-	@echo ... Common/common.i
-	@echo ... Common/common.s
+	@echo ... Examples/Common/common.obj
+	@echo ... Examples/Common/common.i
+	@echo ... Examples/Common/common.s
 	@echo ... Examples/Simple/Large_Array_Summation/large_array_summation.obj
 	@echo ... Examples/Simple/Large_Array_Summation/large_array_summation.i
 	@echo ... Examples/Simple/Large_Array_Summation/large_array_summation.s

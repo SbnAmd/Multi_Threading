@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <chrono>
+#include <type_traits>
 #include <functional>
 #include "common.h"
 
@@ -15,9 +16,6 @@ struct __attribute__ ((packed)) partial_sum_struct{
 };
 
 
-
-void init_array(double*, long long&);
-void single_thread_summation(double*, long long&);
 void run_test(long long);
 
 #endif //MULTI_THREADING_LARGE_ARRAY_SUMMATION_H
